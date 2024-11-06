@@ -4,9 +4,48 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="christian.css" />
   </head>
   <body>
-    <script src="christian.js"></script>
+    <div class="container">
+      <div class="searchbar">
+        <input type="text" class="input-search" placeholder="enter city name" />
+        <button class="search-icon">
+          <img src="weather-app-img/images/search.png" alt="" />
+        </button>
+      </div>
+      <div class="main-content">
+        <div class="weather-image">
+          <img
+            src="weather-app-img/images/clouds.png"
+            alt=""
+            class="image-weather"
+          />
+        </div>
+        <h1 class="temp-text">27&degc</h1>
+        <h2 class="city-text">Bengaluru</h2>
+      </div>
+      <div class="info-content">
+        <div class="humidity">
+          <img src="weather-app-img/images/humidity.png" alt="" />
+          <div class="humidity-content">
+            <h3 class="humidity-level">30%</h3>
+            <h4>Humidity</h4>
+          </div>
+        </div>
+        <div class="wind">
+          <img src="weather-app-img/images/wind.png" alt="" />
+          <div class="wind-content">
+            <h3 class="wind-level">5.66 km/h</h3>
+            <h4>Wind Speed</h4>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
+  <script src="christian.js"></script>
 </html>
